@@ -1,5 +1,5 @@
 import xlrd
-filename = "scores.xlsx"
+filename = "ch02/scores.xlsx"
 
 data = xlrd.open_workbook(filename)
 s1 = data.sheets()[0]

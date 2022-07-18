@@ -6,7 +6,7 @@ data = [
     ['林小華', 185, 80],
     ['陳小強', 168, 60] ]
 
-with open('p-data.csv', 'w', encoding='utf-8', newline='') as fp:
+with open('ch03/p-data.csv', 'w', encoding='utf-8', newline='') as fp:
     csvwriter = csv.writer(fp)
     csvwriter.writerows(data)
 print("done")
